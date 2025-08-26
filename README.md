@@ -14,7 +14,19 @@
 9. Stop the program. 
 
 # Program
+```python
+num=int(input("Ente a anumber :"))
+power=len(str(num))
+total=sum(int(digit)**power for digit in str(num))
+if num==total:
+    print(num,"is an Armstrong number")
+else:
+    print(num,"is not an Armstrong number")
+```
 
 # Output
+<img width="1498" height="186" alt="image" src="https://github.com/user-attachments/assets/6b41e4db-f477-4a6d-9154-acf3782c1412" />
 
-# Result
+
+# Result 
+Thus, the python program to find an Armstrong number has been executed successfully.
